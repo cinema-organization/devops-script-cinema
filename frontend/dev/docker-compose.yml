@@ -1,0 +1,8 @@
+# Front end
+services:
+  front-app:
+    restart: always
+    image: dhouhalamine/frontend-cinema
+    container_name: front_end
+    ports:
+      - "5001:80"
