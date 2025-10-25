@@ -7,7 +7,6 @@ services:
     container_name: backend-api-cinema
     env_file:
       - .env.docker
-    build: .
     ports:
       - "5000:5000"
 
